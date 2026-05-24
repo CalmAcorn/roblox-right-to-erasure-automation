@@ -1,0 +1,11 @@
+name = "roblox-right-to-erasure-automation"
+main = "src/index.ts"
+compatibility_date = "2024-01-01"
+
+[observability.logs]
+enabled = true
+
+[[d1_databases]]
+binding = "DB"
+database_name = "rte-database"                       # database name
+database_id = "648057e3-2961-4a45-bf7f-53c3a5b91e0c" # database id  
